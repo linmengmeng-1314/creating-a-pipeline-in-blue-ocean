@@ -1,8 +1,8 @@
 pipeline {
   agent {
     docker {
-      image 'node:6-alpine'
       args '-p 3000:3000'
+      image '192.168.104.241/common/node:6-alpine'
     }
 
   }
